@@ -1,0 +1,210 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.atelier.vendor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:7:5-76
+13-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.CALL_PHONE" />
+14-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:8:5-69
+14-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:8:22-66
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:9:5-81
+15-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:10:5-80
+16-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:24:5-68
+17-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:24:22-65
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:26:22-79
+19
+20    <application
+20-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:12:5-56:19
+21        android:name="app.atelier.vendor.pushNotifications.AppController"
+21-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:20:9-56
+22        android:allowBackup="true"
+22-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:13:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b45c9509cd3cd99537c5f41640d22626\core-1.1.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/main_icon"
+26-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:14:9-41
+27        android:label="@string/app_name"
+27-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:15:9-41
+28        android:roundIcon="@mipmap/main_icon"
+28-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:16:9-46
+29        android:supportsRtl="true"
+29-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:17:9-35
+30        android:testOnly="true"
+31        android:theme="@style/MainAppTheme"
+31-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:19:9-44
+32        android:usesCleartextTraffic="true" >
+32-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:18:9-44
+33        <activity android:name="app.atelier.vendor.views.activities.SplashActivity" >
+33-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:21:9-27:20
+33-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:21:19-66
+34            <intent-filter>
+34-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:22:13-26:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:23:17-69
+35-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:23:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:25:17-77
+37-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:25:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="app.atelier.vendor.views.activities.MainActivity" >
+40-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:28:9-29:20
+40-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:28:19-64
+41        </activity>
+42
+43        <provider
+44            android:name="app.atelier.vendor.classes.GenericFileProvider"
+44-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:32:13-56
+45            android:authorities="app.atelier.vendor.fileprovider"
+45-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:33:13-64
+46            android:exported="false"
+46-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:34:13-37
+47            android:grantUriPermissions="true" >
+47-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:35:13-47
+48            <meta-data
+48-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:36:13-38:57
+49                android:name="android.support.FILE_PROVIDER_PATHS"
+49-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:37:17-67
+50                android:resource="@xml/provider_paths" />
+50-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:38:17-55
+51        </provider>
+52
+53        <service android:name="app.atelier.vendor.pushNotifications.MyFcmListenerService" >
+53-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:42:9-47:19
+53-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:43:13-67
+54            <intent-filter>
+54-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:44:13-46:29
+55                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+55-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:45:17-78
+55-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:45:25-75
+56            </intent-filter>
+57        </service>
+58        <service android:name="app.atelier.vendor.pushNotifications.MyFirebaseInstanceIDService" >
+58-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:49:9-54:19
+58-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:50:13-74
+59            <intent-filter>
+59-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:51:13-53:29
+60                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+60-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:52:17-79
+60-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:52:25-77
+61            </intent-filter>
+62        </service>
+63
+64        <!--
+65             FirebaseMessagingService performs security checks at runtime,
+66             but set to not exported to explicitly avoid allowing another app to call it.
+67        -->
+68        <service
+68-->[com.google.firebase:firebase-messaging:17.6.0] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\7e11f5ca3e2a566c9d48023537a73290\jetified-firebase-messaging-17.6.0\AndroidManifest.xml:28:9-34:19
+69            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+69-->[com.google.firebase:firebase-messaging:17.6.0] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\7e11f5ca3e2a566c9d48023537a73290\jetified-firebase-messaging-17.6.0\AndroidManifest.xml:29:13-82
+70            android:exported="false" >
+70-->[com.google.firebase:firebase-messaging:17.6.0] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\7e11f5ca3e2a566c9d48023537a73290\jetified-firebase-messaging-17.6.0\AndroidManifest.xml:30:13-37
+71            <intent-filter android:priority="-500" >
+71-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:44:13-46:29
+72                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+72-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:45:17-78
+72-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:45:25-75
+73            </intent-filter>
+74        </service>
+75        <service
+75-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:29:9-35:19
+76            android:name="com.google.firebase.components.ComponentDiscoveryService"
+76-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:30:13-84
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:31:13-37
+78            <meta-data
+78-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:32:13-34:85
+79                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+79-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:33:17-96
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:34:17-82
+81        </service>
+82
+83        <receiver
+83-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:37:9-44:20
+84            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+84-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:38:13-78
+85            android:exported="true"
+85-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:39:13-36
+86            android:permission="com.google.android.c2dm.permission.SEND" >
+86-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:40:13-73
+87            <intent-filter>
+87-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:41:13-43:29
+88                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+88-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:42:17-81
+88-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:42:25-78
+89            </intent-filter>
+90        </receiver>
+91        <!--
+92             FirebaseInstanceIdService performs security checks at runtime,
+93             no need for explicit permissions despite exported="true"
+94        -->
+95        <service
+95-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:50:9-56:19
+96            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+96-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:51:13-77
+97            android:exported="true" >
+97-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b7640ec68dda5e520dbfef1654fc57f0\jetified-firebase-iid-17.1.2\AndroidManifest.xml:52:13-36
+98            <intent-filter android:priority="-500" >
+98-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:51:13-53:29
+99                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+99-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:52:17-79
+99-->D:\HardTask\HardTask-Apps\4-AtelierVendor\AtelierVendor-App\app\src\main\AndroidManifest.xml:52:25-77
+100            </intent-filter>
+101        </service>
+102
+103        <provider
+103-->[com.google.firebase:firebase-common:16.1.0] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\78a8296f60452409999f41f4cd92a30e\jetified-firebase-common-16.1.0\AndroidManifest.xml:12:9-16:39
+104            android:name="com.google.firebase.provider.FirebaseInitProvider"
+104-->[com.google.firebase:firebase-common:16.1.0] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\78a8296f60452409999f41f4cd92a30e\jetified-firebase-common-16.1.0\AndroidManifest.xml:13:13-77
+105            android:authorities="app.atelier.vendor.firebaseinitprovider"
+105-->[com.google.firebase:firebase-common:16.1.0] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\78a8296f60452409999f41f4cd92a30e\jetified-firebase-common-16.1.0\AndroidManifest.xml:14:13-72
+106            android:exported="false"
+106-->[com.google.firebase:firebase-common:16.1.0] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\78a8296f60452409999f41f4cd92a30e\jetified-firebase-common-16.1.0\AndroidManifest.xml:15:13-37
+107            android:initOrder="100" />
+107-->[com.google.firebase:firebase-common:16.1.0] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\78a8296f60452409999f41f4cd92a30e\jetified-firebase-common-16.1.0\AndroidManifest.xml:16:13-36
+108
+109        <activity
+109-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\14e1f0911c092e1446a87e8dab0f3681\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+110            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+110-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\14e1f0911c092e1446a87e8dab0f3681\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\14e1f0911c092e1446a87e8dab0f3681\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\14e1f0911c092e1446a87e8dab0f3681\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+113
+114        <meta-data
+114-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b312e1bd872e9805b4be7328dcc51169\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+115            android:name="com.google.android.gms.version"
+115-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b312e1bd872e9805b4be7328dcc51169\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+116            android:value="@integer/google_play_services_version" />
+116-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Mohamed Zain\.gradle\caches\transforms-2\files-2.1\b312e1bd872e9805b4be7328dcc51169\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+117    </application>
+118
+119</manifest>

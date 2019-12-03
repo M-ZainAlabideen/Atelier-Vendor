@@ -1,0 +1,766 @@
+[
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_box_size.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\box_size.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_bg_status_shipped.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\bg_status_shipped.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_orders.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\layout\\fragment_orders.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_logo.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_box_search.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\box_search.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\font_droid_arabic_kufi_bold.ttf.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\font\\droid_arabic_kufi_bold.ttf"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_bg_status_pending.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\bg_status_pending.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_box_size_in_cm.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\box_size_in_cm.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_box_calendar.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\box_calendar.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_search_gray.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_search_gray.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_box_color.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\box_color.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_arrow_left.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\arrow_left.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_filter.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_filter.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_box_total_balance.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\box_total_balance.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_bg_status_processing.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\bg_status_processing.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_back.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_back.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_search.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_ready.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_ready.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_line_popup.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\line_popup.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_filter.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\layout\\custom_filter.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_pending.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_pending.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_box_size.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\box_size.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_arrow_left.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\arrow_left.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_calendar.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_calendar.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_box_status.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\box_status.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_filter.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_filter.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_delivered.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_delivered.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_processing.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_processing.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_box_calendar.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\box_calendar.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_bg_status_pending.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\bg_status_pending.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_placeholder_pro_details.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\placeholder_pro_details.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_box_size_in_cm.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\box_size_in_cm.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_arrow_left.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\arrow_left.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_filter.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_filter.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_ready.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_ready.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_placeholder_product.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\placeholder_product.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_placeholder_pro_details.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\placeholder_pro_details.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_arrow_right.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\arrow_right.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_bg_status_shipped.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\bg_status_shipped.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_shipped.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_shipped.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_box_status.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\box_status.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_box_calendar.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\box_calendar.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_main_icon.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\main_icon.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_box_status.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\box_status.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_box_size_in_cm.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\box_size_in_cm.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_box_order.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\box_order.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_bg_status_ready.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\bg_status_ready.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_box_total_balance.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\box_total_balance.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_bg_status_pending.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\bg_status_pending.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_delivered.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_delivered.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_box_popup.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\box_popup.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_placeholder_product.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\placeholder_product.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_box_popup.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\box_popup.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_placeholder_pro_details.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\placeholder_pro_details.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_box_search.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\box_search.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_order_products.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\layout\\fragment_order_products.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_calendar.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_calendar.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_bg_status_pending.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\bg_status_pending.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_bg_status_delivered.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\bg_status_delivered.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_box_size_in_cm.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\box_size_in_cm.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_search.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_filter.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_filter.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_search_gray.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_search_gray.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_mark.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_mark.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_delivered.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_delivered.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\font_droid_arabic_kufi.ttf.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\font\\droid_arabic_kufi.ttf"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_bg_status_processing.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\bg_status_processing.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_processing.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_processing.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_input_box.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\drawable\\input_box.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_calendar.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_calendar.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_bg_status_pending.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\bg_status_pending.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_back.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_back.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_line_popup.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\line_popup.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_box_popup.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\box_popup.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_mark.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_mark.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_box_color.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\box_color.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_search_close.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_search_close.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_bg_status_delivered.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\bg_status_delivered.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_box_search.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\box_search.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_shipped.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_shipped.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_mark.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_mark.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_box_popup.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\box_popup.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_placeholder_product.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\placeholder_product.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_search_close.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_search_close.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_bg_status_ready.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\bg_status_ready.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_bg_status_processing.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\bg_status_processing.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_search_gray.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_search_gray.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_logo.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_back.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_back.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_bg_status_shipped.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\bg_status_shipped.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_processing.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_processing.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_logo.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_bg_status_processing.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\bg_status_processing.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_box_status.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\box_status.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_box_order.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\box_order.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_bg_status_shipped.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\bg_status_shipped.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_delivered.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_delivered.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_size_in_cm.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\layout\\item_size_in_cm.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_bg_status_ready.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\bg_status_ready.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_box_order.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\box_order.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_shipped.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_shipped.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_filter.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_filter.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_bg_status_delivered.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\bg_status_delivered.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_placeholder_product.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\placeholder_product.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_box_search.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\box_search.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_mark.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_mark.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_arrow_right.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\arrow_right.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_box_size_in_cm.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\box_size_in_cm.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_search_close.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_search_close.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_box_search.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\box_search.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_box_status.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\box_status.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_box_size.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\box_size.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_back.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_back.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_product.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\layout\\item_product.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_delivered.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_delivered.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_product_details.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\layout\\fragment_product_details.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_ready.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_ready.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_back.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_back.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_processing.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_processing.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_box_size.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\box_size.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_bg_status_shipped.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\bg_status_shipped.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_arrow_right.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\arrow_right.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_search_close.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_search_close.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_box_color.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\box_color.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_arrow_left.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\arrow_left.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_bg_status_processing.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\bg_status_processing.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_login.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_calendar.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_calendar.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_bg_status_delivered.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\bg_status_delivered.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_arrow_left.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\arrow_left.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_pending.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_pending.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_shipped.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_shipped.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_box_color.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\box_color.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_ready.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_ready.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_bg_status_ready.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\bg_status_ready.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_box_total_balance.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\box_total_balance.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_shipped.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_shipped.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_line_popup.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\line_popup.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_arrow_right.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\arrow_right.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_search.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_order.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\layout\\item_order.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_placeholder_product.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\placeholder_product.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_search_close.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_search_close.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_box_size.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\box_size.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_logo.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_forget_password.xml.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\layout\\fragment_forget_password.xml"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_calendar.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_calendar.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_pending.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_pending.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_box_calendar.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\box_calendar.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_line_popup.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\line_popup.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_box_popup.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\box_popup.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_placeholder_pro_details.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\placeholder_pro_details.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_box_calendar.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\box_calendar.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_box_total_balance.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\box_total_balance.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_search_gray.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_search_gray.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_mark.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_mark.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_arrow_right.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\arrow_right.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_line_popup.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\line_popup.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_pending.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_pending.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_bg_status_delivered.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\bg_status_delivered.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_placeholder_pro_details.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\placeholder_pro_details.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_bg_status_ready.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\bg_status_ready.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_search.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_search.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_search.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_processing.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_processing.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_ready.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_ready.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_box_order.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xhdpi\\box_order.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_box_color.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\box_color.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_box_order.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\box_order.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_logo.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_search_gray.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_search_gray.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_pending.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-mdpi\\ic_pending.png"
+    },
+    {
+        "merged": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_box_total_balance.png.flat",
+        "source": "D:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\src\\main\\res\\mipmap-xxxhdpi\\box_total_balance.png"
+    }
+]

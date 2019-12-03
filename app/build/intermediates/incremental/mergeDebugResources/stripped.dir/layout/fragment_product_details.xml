@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fragment_product_details_iv_productImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/placeholder_pro_details" />
+
+    <TextView
+        android:id="@+id/fragment_product_details_tv_name"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/droid_arabic_kufi_bold"
+        android:gravity="center"
+        android:textColor="@color/darkGray"
+        android:text="فساتين زفاف - أجمل فساتين الزفاف من مصممين عرب وعالميين"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_product_details_iv_productImg" />
+
+    <TextView
+        android:id="@+id/fragment_product_details_tv_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/droid_arabic_kufi"
+        android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفسالمساحةلقدتم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص للتوصيل لباب المنزل مجانا"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_product_details_tv_name" />
+
+    <TextView
+        android:id="@+id/fragment_product_details_tv_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/droid_arabic_kufi"
+        android:text="13 قطعة"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="@+id/fragment_product_details_tv_description"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_product_details_tv_description" />
+
+    <TextView
+        android:id="@+id/fragment_product_details_tv_price"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/droid_arabic_kufi_bold"
+        android:text="93.500 KD"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@+id/fragment_product_details_tv_quantity"
+        app:layout_constraintEnd_toEndOf="@+id/fragment_product_details_tv_description"
+        app:layout_constraintTop_toTopOf="@+id/fragment_product_details_tv_quantity" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/lightGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_product_details_tv_price" />
+
+        <TextView
+            android:id="@+id/fragment_product_details_tv_details"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/droid_arabic_kufi"
+            android:text="details........"
+            android:textColor="@color/darkGray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/view"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/recyclerView"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/fragment_product_details_tv_details"-->
+<!--        tools:listitem="@layout/item_size_in_cm" />-->
+
+
+<!--    <View-->
+<!--        android:id="@+id/view4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:background="@color/lightGray"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/recyclerView" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView26"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="@font/droid_arabic_kufi_bold"-->
+<!--        android:text="@string/size"-->
+<!--        android:textColor="@color/darkGray"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/view4" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/view2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:background="@color/lightGray"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView23" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView23"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="@font/droid_arabic_kufi_bold"-->
+<!--        android:text="@string/color"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:textColor="@color/darkGray"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/view2" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView21"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/textView23"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/textView23"-->
+<!--        app:srcCompat="@mipmap/box_color" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView22"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView21"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView21"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView21"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView21"-->
+<!--        app:srcCompat="@mipmap/ic_mark" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/view3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:background="@color/lightGray"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView23" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView24"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="@font/droid_arabic_kufi_bold"-->
+<!--        android:text="@string/notes"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:textColor="@color/darkGray"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/view3" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView25"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="15dp"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:fontFamily="@font/droid_arabic_kufi"-->
+<!--        android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفسالمساحةلقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص للتوصيل لباب المنزل مجانا"-->
+<!--        android:textColor="@color/darkGray"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView24"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView23"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/textView26"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/textView26"-->
+<!--        app:srcCompat="@mipmap/box_size" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView27"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="M"-->
+<!--        android:textColor="@color/white"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView23"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView23"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView23"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView23" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>

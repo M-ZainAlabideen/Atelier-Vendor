@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/custom_filter_cl_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@mipmap/box_popup">
+
+    <TextView
+        android:id="@+id/custom_filter_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/droid_arabic_kufi_bold"
+        android:text="@string/filter"
+        android:textColor="@color/darkGray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_tv_title"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_tv_title"
+        app:layout_constraintTop_toBottomOf="@+id/custom_filter_tv_title"
+        app:srcCompat="@mipmap/line_popup" />
+
+    <ImageView
+        android:id="@+id/custom_filter_iv_pendingBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@mipmap/box_status" />
+
+    <View
+        android:id="@+id/custom_filter_v_pending"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_pendingBg"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_pendingBg"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_pendingBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_pendingBg" />
+
+    <ImageView
+        android:id="@+id/custom_filter_iv_processingBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_pendingBg"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_pendingBg"
+        app:layout_constraintTop_toBottomOf="@+id/custom_filter_iv_pendingBg"
+        app:srcCompat="@mipmap/box_status" />
+
+    <View
+        android:id="@+id/custom_filter_v_processing"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_processingBg"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_processingBg"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_processingBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_processingBg" />
+
+    <ImageView
+        android:id="@+id/custom_filter_iv_readyBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_processingBg"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_processingBg"
+        app:layout_constraintTop_toBottomOf="@+id/custom_filter_iv_processingBg"
+        app:srcCompat="@mipmap/box_status" />
+
+    <View
+        android:id="@+id/custom_filter_v_ready"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_readyBg"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_readyBg"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_readyBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_readyBg" />
+
+    <ImageView
+        android:id="@+id/custom_filter_iv_shippedBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_readyBg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_readyBg"
+        app:layout_constraintTop_toBottomOf="@+id/custom_filter_iv_readyBg"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/box_status" />
+
+    <View
+        android:id="@+id/custom_filter_v_shipped"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_shippedBg"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_shippedBg"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_shippedBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_shippedBg" />
+
+
+    <ImageView
+        android:id="@+id/custom_filter_iv_deliveredBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_shippedBg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_shippedBg"
+        app:layout_constraintTop_toBottomOf="@+id/custom_filter_iv_shippedBg"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/box_status" />
+
+    <View
+        android:id="@+id/custom_filter_v_delivered"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_deliveredBg"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_deliveredBg"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_deliveredBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_deliveredBg" />
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/custom_filter_iv_allBg"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_deliveredBg"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_deliveredBg"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/custom_filter_iv_deliveredBg"-->
+<!--        app:layout_constraintVertical_bias="0.0"-->
+<!--        app:srcCompat="@mipmap/box_status" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/custom_filter_v_all"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_allBg"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_allBg"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_allBg"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_allBg" />-->
+
+
+    <TextView
+        android:id="@+id/custom_filter_tv_pendingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/pending"
+        android:fontFamily="@font/droid_arabic_kufi"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_pendingBg"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_pendingBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_pendingBg" />
+
+    <TextView
+        android:id="@+id/custom_filter_tv_processingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Processing"
+        android:textColor="@color/gold"
+        android:fontFamily="@font/droid_arabic_kufi"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_processingBg"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_processingBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_processingBg" />
+
+    <TextView
+        android:id="@+id/custom_filter_tv_readyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/ready"
+        android:textColor="@color/green"
+        android:fontFamily="@font/droid_arabic_kufi"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_readyBg"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_readyBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_readyBg" />
+
+    <TextView
+        android:id="@+id/custom_filter_tv_shippedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/shipped"
+        android:textColor="@color/pink"
+        android:fontFamily="@font/droid_arabic_kufi"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_shippedBg"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_shippedBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_shippedBg" />
+
+
+    <TextView
+        android:id="@+id/custom_filter_tv_deliveredText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/delivered"
+        android:textColor="@color/blue"
+        android:fontFamily="@font/droid_arabic_kufi"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_deliveredBg"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_deliveredBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_deliveredBg" />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/custom_filter_tv_allText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:text="@string/all"-->
+<!--        android:textColor="@color/darkGray"-->
+<!--        android:fontFamily="@font/droid_arabic_kufi"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_allBg"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_allBg"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_allBg" />-->
+
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_pendingBg"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_pendingBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_pendingBg"
+        app:srcCompat="@mipmap/ic_pending" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_processingBg"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_processingBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_processingBg"
+        app:srcCompat="@mipmap/ic_processing" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_readyBg"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_readyBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_readyBg"
+        app:srcCompat="@mipmap/ic_ready" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_shippedBg"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_shippedBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_shippedBg"
+        app:srcCompat="@mipmap/ic_shipped" />
+
+    <ImageView
+        android:id="@+id/imageView170"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/custom_filter_iv_deliveredBg"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_deliveredBg"
+        app:layout_constraintTop_toTopOf="@+id/custom_filter_iv_deliveredBg"
+        app:srcCompat="@mipmap/ic_delivered" />
+
+    <TextView
+        android:id="@+id/custom_filter_tv_confirm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/gray"
+        android:fontFamily="@font/droid_arabic_kufi"
+        android:gravity="center"
+        android:text="@string/confirm"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/custom_filter_iv_deliveredBg"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/custom_filter_iv_deliveredBg"
+        app:layout_constraintTop_toBottomOf="@+id/custom_filter_iv_deliveredBg"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

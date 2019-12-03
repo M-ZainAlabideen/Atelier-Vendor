@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "917801079502",
+    "firebase_url": "https://ateliervendor.firebaseio.com",
+    "project_id": "ateliervendor",
+    "storage_bucket": "ateliervendor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917801079502:android:5e157a59a58243c288b69f",
+        "android_client_info": {
+          "package_name": "app.atelier.vendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917801079502-kd25hld936jj8aiglqk3bjn2qmli3bhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR-Hdj5xXwnJeOpnssL6Fjf7ETEZyRDnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917801079502-kd25hld936jj8aiglqk3bjn2qmli3bhp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
