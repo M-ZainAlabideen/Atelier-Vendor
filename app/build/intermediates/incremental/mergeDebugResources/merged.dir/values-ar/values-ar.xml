@@ -32,6 +32,7 @@
     <string name="all">الكل</string>
     <string name="app_name">Atelier Vendor</string>
     <string name="atelier">أتيليه</string>
+    <string name="canNotSelect">لا يمكنك إختيار هذه الحالة</string>
     <string name="changeStatus">تغيير حالة الطلب</string>
     <string name="checkInternet">تحقق من وجود الإنترنت أولا</string>
     <string name="checkYourEmail">تم إرسال رسالة علي البريد الإلكتروني</string>

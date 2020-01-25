@@ -1,7 +1,9 @@
 package app.atelier.vendor.classes;
 
 public class Constants {
-    public static final String BASE_URL1 = "http://demo.atelierq8.com";
+
+    public static final String BASE_URL1 = "http://atelierq8.com";
+    // public static final String BASE_URL1 = "http://demo.atelierq8.com";
 
     public static final String BASE_URL = BASE_URL1 + "/api/";
     public static final String AUTHORIZATION = "Authorization";

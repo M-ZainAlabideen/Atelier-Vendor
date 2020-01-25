@@ -43,5 +43,6 @@
     <string name="orderTotal">Total</string>
     <string name="logout">Logout</string>
     <string name="all">All</string>
-    <string name="PDFInvoice">فاتورة PDF</string>
+    <string name="PDFInvoice">PDF Invoice</string>
+    <string name="canNotSelect">Sorry Can\'t Select This Status</string>
 </resources>

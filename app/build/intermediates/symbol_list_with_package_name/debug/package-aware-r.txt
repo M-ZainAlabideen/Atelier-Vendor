@@ -1588,6 +1588,7 @@ mipmap box_total_balance
 mipmap ic_back
 mipmap ic_calendar
 mipmap ic_delivered
+mipmap ic_done
 mipmap ic_filter
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -1638,6 +1639,7 @@ string app_name
 string appbar_scrolling_view_behavior
 string atelier
 string bottom_sheet_behavior
+string canNotSelect
 string changeStatus
 string character_counter_content_description
 string character_counter_pattern

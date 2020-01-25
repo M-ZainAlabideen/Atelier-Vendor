@@ -128,7 +128,7 @@ public class LoginFragment extends Fragment {
 
     public void loginApi(String userNameOrEmail, String password) {
         loading.setVisibility(View.VISIBLE);
-        RetrofitConfig.getServices().LOGIN_RESPONSE_CALL(userNameOrEmail, password)
+        RetrofitConfig.getServices(activity).LOGIN_RESPONSE_CALL(userNameOrEmail, password)
                 .enqueue(
                         new Callback<LoginResponse>() {
                             @Override
@@ -153,7 +153,7 @@ public class LoginFragment extends Fragment {
                                                         // Get new Instance ID token
                                                         regId = task.getResult().getToken();
 
-                                                        Log.e("registerationid Splash ", "regId -> "+regId);
+                                                        Log.e("registrationId Login ", "regId -> "+regId+"------------"+sessionManager.getId());
 
                                                         registerInBackground();
 
@@ -178,7 +178,7 @@ public class LoginFragment extends Fragment {
 
 
     private void registerInBackground() {
-        RetrofitConfig.getServices().INSERT_TOKEN(regId,"2", AppController.getInstance().getIMEI(), sessionManager.getId().length()>0 ? sessionManager.getId() : "0")
+        RetrofitConfig.getServices(activity).INSERT_TOKEN(regId,"2", AppController.getInstance().getIMEI(), sessionManager.getId().length()>0 ? sessionManager.getId() : "0")
                 .enqueue(new Callback<ResponseBody>() {
                     @Override
                     public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {

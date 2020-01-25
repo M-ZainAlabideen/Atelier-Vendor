@@ -2,23 +2,18 @@ package app.atelier.vendor.views.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.fragment.app.FragmentActivity;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.material.appbar.AppBarLayout;
-import com.google.android.material.snackbar.Snackbar;
 
 import app.atelier.vendor.R;
 import app.atelier.vendor.classes.GlobalFunctions;
@@ -26,15 +21,14 @@ import app.atelier.vendor.classes.LocaleHelper;
 import app.atelier.vendor.classes.Navigator;
 import app.atelier.vendor.classes.SessionManager;
 import app.atelier.vendor.views.fragments.LoginFragment;
+import app.atelier.vendor.views.fragments.OrderProductsFragment;
 import app.atelier.vendor.views.fragments.OrdersFragment;
-import app.atelier.vendor.webService.RetrofitConfig;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import okhttp3.ResponseBody;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
+
+
 import androidx.appcompat.widget.SearchView;
+
 public class MainActivity extends AppCompatActivity {
 
     public static AppBarLayout appbar;
@@ -87,11 +81,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if(id == R.id.logout){
+        if (id == R.id.logout) {
             sessionManager.logout();
             Navigator.loadFragment(this, LoginFragment.newInstance(this), R.id.activity_main_fl_container, false);
-        }
-        else if(id == R.id.changeLang){
+        } else if (id == R.id.changeLang) {
             changeLanguage();
         }
         return super.onOptionsItemSelected(item);
@@ -129,4 +122,32 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+
+        gotoDetails(intent);
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        gotoDetails(getIntent());
+
+    }
+
+    private void gotoDetails(Intent intent) {
+
+        if (intent.hasExtra("Id")) {
+            Log.d("gotoDetails", "1 -> " + intent.getStringExtra("type"));
+
+            Log.d("gotoDetails", "2 -> " + intent.getStringExtra("Id"));
+
+            Navigator.loadFragment(this, OrderProductsFragment.newInstance(this, Integer.parseInt(intent.getStringExtra("Id"))),
+                    R.id.activity_main_fl_container, true);
+
+        }
+    }
 }

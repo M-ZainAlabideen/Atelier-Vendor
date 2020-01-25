@@ -80,7 +80,7 @@ public class ForgetPasswordFragment extends Fragment {
 
     private void forgetPasswordApi(String email) {
         loading.setVisibility(View.VISIBLE);
-        RetrofitConfig.getServices().FORGET_PASSWORD_RESPONSE_CALL(email)
+        RetrofitConfig.getServices(activity).FORGET_PASSWORD_RESPONSE_CALL(email)
                 .enqueue(
                         new Callback<ResponseBody>() {
                             @Override

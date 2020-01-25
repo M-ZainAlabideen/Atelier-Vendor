@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -73,34 +74,31 @@ public class OrdersAdapter extends RecyclerView.Adapter<OrdersAdapter.viewHolder
         if(sessionManager.getLanguage().equals("en")){
             viewHolder.arrow.setRotation(180);
         }
-        switch (ordersList.get(position).vendorStatusId) {
 
-            case 20:
-                viewHolder.status.setText(context.getString(R.string.Processing));
-                viewHolder.status.setTextColor(Color.parseColor("#D8A228"));
-                viewHolder.status.setCompoundDrawablesWithIntrinsicBounds(0,0,R.mipmap.ic_processing,0);
-                break;
-            case 30:
-                viewHolder.status.setText(context.getString(R.string.ready));
-                viewHolder.status.setTextColor(Color.parseColor("#4FC12D"));
-                viewHolder.status.setCompoundDrawablesWithIntrinsicBounds(0,0,R.mipmap.ic_ready,0);
-                break;
-            case 40:
-                viewHolder.status.setText(context.getString(R.string.shipped));
-                viewHolder.status.setTextColor(Color.parseColor("#BB2CE6"));
-                viewHolder.status.setCompoundDrawablesWithIntrinsicBounds(0,0,R.mipmap.ic_shipped,0);
-                break;
-            case 50:
-                viewHolder.status.setText(context.getString(R.string.delivered));
-                viewHolder.status.setTextColor(Color.parseColor("#007AFF"));
-                viewHolder.status.setCompoundDrawablesWithIntrinsicBounds(0,0,R.mipmap.ic_delivered,0);
-                break;
-            default:
-                viewHolder.status.setText(context.getString(R.string.pending));
-                viewHolder.status.setTextColor(Color.parseColor("#E62C2C"));
-                viewHolder.status.setCompoundDrawablesWithIntrinsicBounds(0,0,R.mipmap.ic_pending,0);
-                break;
-        }
+                viewHolder.status.setText( ordersList.get(position).getVendorStatus());
+                switch (ordersList.get(position).vendorStatusId){
+                    case 10:
+                        viewHolder.status.setTextColor(Color.parseColor("#E62C2C"));
+                        viewHolder.status.setCompoundDrawablesWithIntrinsicBounds(0,0,R.mipmap.ic_pending,0);
+                        break;
+                    case 20:
+                        viewHolder.status.setTextColor(Color.parseColor("#D8A228"));
+                        viewHolder.status.setCompoundDrawablesWithIntrinsicBounds(0,0,R.mipmap.ic_processing,0);
+                        break;
+                    case 30:
+                        viewHolder.status.setTextColor(Color.parseColor("#4FC12D"));
+                        viewHolder.status.setCompoundDrawablesWithIntrinsicBounds(0,0,R.mipmap.ic_ready,0);
+                        break;
+                    case 40:
+                        viewHolder.status.setTextColor(Color.parseColor("#BB2CE6"));
+                        viewHolder.status.setCompoundDrawablesWithIntrinsicBounds(0,0,R.mipmap.ic_shipped,0);
+                        break;
+                    case 50:
+                        viewHolder.status.setTextColor(Color.parseColor("#007AFF"));
+                        viewHolder.status.setCompoundDrawablesWithIntrinsicBounds(0,0,R.mipmap.ic_delivered,0);
+                        break;
+
+                }
 
         viewHolder.changeStatus.setOnClickListener(new View.OnClickListener() {
             @Override

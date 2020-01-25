@@ -5,6 +5,8 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.ArrayList;
 
+import app.atelier.vendor.views.activities.MainActivity;
+
 public class Order {
 
     @SerializedName("vendor_status_id")
@@ -25,10 +27,31 @@ public class Order {
     @SerializedName("order_items")
     public ArrayList<Product> orderProducts;
 
-    @SerializedName("order_status")
+    @SerializedName("vendor_statusEn")
     @Expose
-    public String orderStatus;
+    private String vendorStatusEn;
+
+    @SerializedName("vendor_statusAr")
+    @Expose
+    private String vendorStatusAr;
+
+
     @SerializedName("payment_status")
     @Expose
     public String paymentStatus;
+
+    public void setVendorStatus(String vendorStatus) {
+        if (MainActivity.isEnglish)
+            vendorStatusEn = vendorStatus;
+        else
+            vendorStatusAr = vendorStatus;
+    }
+
+    public String getVendorStatus() {
+        if (MainActivity.isEnglish)
+            return vendorStatusEn;
+        else
+            return vendorStatusAr;
+    }
+
 }

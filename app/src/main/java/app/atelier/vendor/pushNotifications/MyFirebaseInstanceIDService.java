@@ -1,5 +1,6 @@
 package app.atelier.vendor.pushNotifications;
 
+import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
 
@@ -29,36 +30,24 @@ public class MyFirebaseInstanceIDService extends FirebaseMessagingService {
         sessionManager = new SessionManager(this);
 
         // TODO: Implement this method to send any registration to your app's servers.
-        sendRegistrationToServer(s);
+        sendRegistrationToServer(s,this);
 
     }
 
-    private void sendRegistrationToServer(final String regid) {
+    private void sendRegistrationToServer(final String regId, final Context context) {
         new AsyncTask<Void, Void, String>() {
             @Override
             protected String doInBackground(Void... params) {
                 String msg = "";
-                //try {
-                    /*if (gcm == null) {
-                        gcm = GoogleCloudMessaging.getInstance(context);
-                    }
-                    regid = gcm.register(SENDER_ID);*/
-                //regid = FirebaseInstanceId.getInstance().getToken();
-                msg = "Device registered, registration ID=" + regid;
-
-                //} catch (IOException ex) {
-                //msg = "Error :" + ex.getMessage();
-                // If there is an error, don't just keep trying to register.
-                // Require the user to click a button again, or perform
-                // exponential back-off.
-                //}
+                msg = "Device registered, registration ID=" + regId ;
                 return msg;
             }
 
             @Override
             protected void onPostExecute(String msg) {
+                Log.e("registrationId service", "regId -> "+regId +"------------"+ sessionManager.getId());
 
-                RetrofitConfig.getServices().INSERT_TOKEN(regid,"2", AppController.getInstance().getIMEI(), sessionManager.getId().length()>0 ? sessionManager.getId() : "0")
+                RetrofitConfig.getServices(context).INSERT_TOKEN(regId,"2", AppController.getInstance().getIMEI(), sessionManager.getId().length()>0 ? sessionManager.getId() : "0")
                         .enqueue(new Callback<ResponseBody>() {
                             @Override
                             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
@@ -79,11 +68,7 @@ public class MyFirebaseInstanceIDService extends FirebaseMessagingService {
                                     }
 
                                     String outResponse = out.toString();
-                                    Log.d("outResponse", ""+outResponse);
-
-                                    sessionManager.setRegId(regid);
-
-
+                                    sessionManager.setRegId(regId);
 
                                 } catch (Exception ex) {
 

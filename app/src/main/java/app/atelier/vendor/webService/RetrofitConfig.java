@@ -1,5 +1,7 @@
 package app.atelier.vendor.webService;
 
+import android.content.Context;
+
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -18,12 +20,11 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitConfig {
 
     private static final Map<String, RetrofitService> mService = new HashMap<>();
-
-    private RetrofitConfig() {
+    private SessionManager sessionManager;
+    private RetrofitConfig(Context context) {
+        sessionManager = new SessionManager(context);
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
         interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-
-        //fix it
         OkHttpClient client = new OkHttpClient
                 .Builder()
                 .addInterceptor(new Interceptor() {
@@ -31,7 +32,7 @@ public class RetrofitConfig {
                     public Response intercept(Chain chain) throws IOException {
                         Request request = chain.request().newBuilder()
                                 .addHeader(Constants.AUTHORIZATION, Constants.AUTHORIZATION_VALUE)
-                                .addHeader(Constants.ACCEPT_LANGUAGE, "ar")
+                                .addHeader(Constants.ACCEPT_LANGUAGE,sessionManager.getLanguage())
                                 .addHeader(Constants.CONTENT_TYPE, Constants.CONTENT_TYPE_VALUE)
                                 .build();
                         return chain.proceed(request);
@@ -51,9 +52,9 @@ public class RetrofitConfig {
         mService.put(Constants.BASE_URL, retrofit.create(RetrofitService.class));
     }
 
-    public static RetrofitService getServices() {
+    public static RetrofitService getServices(Context context) {
         if (mService.get(Constants.BASE_URL) == null) {
-            new RetrofitConfig();
+            new RetrofitConfig(context);
         }
         return mService.get(Constants.BASE_URL);
     }

@@ -56,8 +56,6 @@ private SessionManager sessionManager;
             }
         }, SPLASH_DISPLAY_LENGTH);
 
-        FirebaseApp.initializeApp(this);
-
         FirebaseInstanceId.getInstance().getInstanceId()
                 .addOnCompleteListener(new OnCompleteListener<InstanceIdResult>() {
                     @Override
@@ -69,7 +67,7 @@ private SessionManager sessionManager;
 
                         // Get new Instance ID token
                         regId = task.getResult().getToken();
-                        Log.d("regisId",regId);
+                        Log.e("registrationId Splash ", "regId -> "+regId+"------------"+sessionManager.getId());
                         registerInBackground();
 
 
@@ -78,7 +76,7 @@ private SessionManager sessionManager;
     }
 
     private void registerInBackground() {
-        RetrofitConfig.getServices().INSERT_TOKEN(regId,"2", AppController.getInstance().getIMEI(), sessionManager.getId().length()>0 ? sessionManager.getId() : "0")
+        RetrofitConfig.getServices(this).INSERT_TOKEN(regId,"2", AppController.getInstance().getIMEI(), sessionManager.getId().length()>0 ? sessionManager.getId() : "0")
                 .enqueue(new Callback<ResponseBody>() {
                     @Override
                     public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {

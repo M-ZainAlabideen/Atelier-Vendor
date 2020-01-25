@@ -1,4 +1,4 @@
-#Tue Dec 03 22:18:12 EET 2019
+#Thu Dec 19 16:03:59 EET 2019
 base.0=D\:\\HardTask\\HardTask-Apps\\4-AtelierVendor\\AtelierVendor-App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

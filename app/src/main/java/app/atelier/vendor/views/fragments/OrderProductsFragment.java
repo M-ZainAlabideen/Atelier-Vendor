@@ -251,7 +251,7 @@ public class OrderProductsFragment extends Fragment {
 
     private void orderProductsApi(int id){
         loading.setVisibility(View.VISIBLE);
-        RetrofitConfig.getServices().ORDERS_PRODUCTS_RESPONSE_CALL(id).enqueue(new Callback<OrdersResponse>() {
+        RetrofitConfig.getServices(activity).ORDERS_PRODUCTS_RESPONSE_CALL(id).enqueue(new Callback<OrdersResponse>() {
             @Override
             public void onResponse(Call<OrdersResponse> call, Response<OrdersResponse> response) {
                 if(response.code() == 200){

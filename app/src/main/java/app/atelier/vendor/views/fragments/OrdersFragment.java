@@ -39,6 +39,7 @@ import app.atelier.vendor.webService.RetrofitConfig;
 import app.atelier.vendor.webService.response.OrdersResponse;
 import app.atelier.vendor.webService.response.VendorStatusResponse;
 import app.atelier.vendor.webService.webModels.Order;
+import app.atelier.vendor.webService.webModels.OrdersTotal;
 import app.atelier.vendor.webService.webModels.Status;
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -79,6 +80,7 @@ public class OrdersFragment extends Fragment {
 
     private Integer statusSelectedId = null;
     private int currentStatusId = -1;
+    private String currentVendorStatus;
     private String vendorId;
     private String fromDateStr;
     private String toDateStr;
@@ -88,6 +90,7 @@ public class OrdersFragment extends Fragment {
     private DatePickerDialog.OnDateSetListener date;
     private int orderPosition;
     private boolean check;
+    private OrdersTotal ordersTotal;
 
     public static OrdersFragment newInstance(FragmentActivity activity) {
         fragment = new OrdersFragment();
@@ -119,6 +122,7 @@ public class OrdersFragment extends Fragment {
             @Override
             public void changeStatusClick(int position) {
                 currentStatusId = ordersList.get(position).vendorStatusId;
+                currentVendorStatus = ordersList.get(position).getVendorStatus();
                 orderPosition = position;
                 vendorStatusApi(false);
             }
@@ -126,14 +130,16 @@ public class OrdersFragment extends Fragment {
         layoutManager = new LinearLayoutManager(activity);
         orders.setLayoutManager(layoutManager);
         orders.setAdapter(ordersAdapter);
-        if (ordersList.size() == 0) {
-            if(!check) {
-                getOrdersApi(null,null , null, null);
+        if (ordersList.size() == 0 || ordersTotal == null) {
+            if (!check) {
+                getOrdersApi(null, null, null, null);
                 check = true;
             }
         } else {
             loading.setVisibility(View.GONE);
             container.setVisibility(View.VISIBLE);
+            total.setText(ordersTotal.formattedOrderTotal);
+
         }
 
         MainActivity.search.setQueryHint(getString(R.string.searchByOrderNum));
@@ -170,7 +176,7 @@ public class OrdersFragment extends Fragment {
                 ordersList.clear();
                 ordersAdapter.notifyDataSetChanged();
                 pageIndex = 1;
-                getOrdersApi(null,null, null, null);
+                getOrdersApi(null, null, null, null);
             }
         });
 
@@ -209,8 +215,8 @@ public class OrdersFragment extends Fragment {
 
     @OnClick(R.id.fragment_orders_iv_dateFilter)
     public void dateFilterClick() {
-         fromDateStr = fromDate.getText().toString();
-         toDateStr = toDate.getText().toString();
+        fromDateStr = fromDate.getText().toString();
+        toDateStr = toDate.getText().toString();
         if (fromDateStr.equals("yyyy-mm-dd")) {
             Snackbar.make(loading, getString(R.string.selectStartDate), Snackbar.LENGTH_SHORT).show();
         } else if (toDateStr.equals("yyyy-mm-dd")) {
@@ -240,7 +246,6 @@ public class OrdersFragment extends Fragment {
         final View ready = (View) alertDialogView.findViewById(R.id.custom_filter_v_ready);
         final View shipped = (View) alertDialogView.findViewById(R.id.custom_filter_v_shipped);
         View pending = (View) alertDialogView.findViewById(R.id.custom_filter_v_pending);
-        //View all = (View) alertDialogView.findViewById(R.id.custom_filter_v_all);
 
 
         final TextView deliveredText = (TextView) alertDialogView.findViewById(R.id.custom_filter_tv_deliveredText);
@@ -248,7 +253,6 @@ public class OrdersFragment extends Fragment {
         final TextView readyText = (TextView) alertDialogView.findViewById(R.id.custom_filter_tv_readyText);
         final TextView shippedText = (TextView) alertDialogView.findViewById(R.id.custom_filter_tv_shippedText);
         final TextView pendingText = (TextView) alertDialogView.findViewById(R.id.custom_filter_tv_pendingText);
-        //final TextView allText = (TextView) alertDialogView.findViewById(R.id.custom_filter_tv_allText);
 
 
         final ImageView pendingBg = (ImageView) alertDialogView.findViewById(R.id.custom_filter_iv_pendingBg);
@@ -256,16 +260,12 @@ public class OrdersFragment extends Fragment {
         final ImageView readyBg = (ImageView) alertDialogView.findViewById(R.id.custom_filter_iv_readyBg);
         final ImageView shippedBg = (ImageView) alertDialogView.findViewById(R.id.custom_filter_iv_shippedBg);
         final ImageView deliveredBg = (ImageView) alertDialogView.findViewById(R.id.custom_filter_iv_deliveredBg);
-        //final ImageView allBg = (ImageView) alertDialogView.findViewById(R.id.custom_filter_iv_allBg);
 
 
         TextView confirm = (TextView) alertDialogView.findViewById(R.id.custom_filter_tv_confirm);
         TextView title = (TextView) alertDialogView.findViewById(R.id.custom_filter_tv_title);
         if (!isFilter) {
             title.setText(getString(R.string.changeStatus));
-//            all.setVisibility(View.GONE);
-//            allBg.setVisibility(View.GONE);
-//            allText.setVisibility(View.GONE);
         }
 
         pendingText.setText(statusList.get(0).getStatus());
@@ -372,7 +372,10 @@ public class OrdersFragment extends Fragment {
                 if (isFilter) {
                     statusSelectedId = statusList.get(0).statusId;
                 } else {
+
                     currentStatusId = statusList.get(0).statusId;
+                    currentVendorStatus = statusList.get(0).getStatus();
+
                 }
 
                 processingBg.setBackgroundColor(0x00000000);
@@ -387,8 +390,6 @@ public class OrdersFragment extends Fragment {
                 deliveredBg.setBackgroundColor(0x00000000);
                 deliveredText.setTextColor(Color.parseColor("#007AFF"));
 
-//                allBg.setBackgroundColor(0x00000000);
-//                allText.setTextColor(Color.parseColor("#454C53"));
             }
         });
 
@@ -400,7 +401,9 @@ public class OrdersFragment extends Fragment {
                 if (isFilter) {
                     statusSelectedId = statusList.get(1).statusId;
                 } else {
+
                     currentStatusId = statusList.get(1).statusId;
+                    currentVendorStatus = statusList.get(1).getStatus();
                 }
 
 
@@ -416,8 +419,6 @@ public class OrdersFragment extends Fragment {
                 pendingBg.setBackgroundColor(0x00000000);
                 pendingText.setTextColor(Color.parseColor("#E62C2C"));
 
-//                allBg.setBackgroundColor(0x00000000);
-//                allText.setTextColor(Color.parseColor("#454C53"));
             }
         });
 
@@ -429,7 +430,9 @@ public class OrdersFragment extends Fragment {
                 if (isFilter) {
                     statusSelectedId = statusList.get(2).statusId;
                 } else {
+
                     currentStatusId = statusList.get(2).statusId;
+                    currentVendorStatus = statusList.get(2).getStatus();
                 }
 
                 shippedBg.setBackgroundColor(0x00000000);
@@ -444,8 +447,6 @@ public class OrdersFragment extends Fragment {
                 processingBg.setBackgroundColor(0x00000000);
                 processingText.setTextColor(Color.parseColor("#D8A228"));
 
-//                allBg.setBackgroundColor(0x00000000);
-//                allText.setTextColor(Color.parseColor("#454C53"));
             }
         });
 
@@ -457,7 +458,9 @@ public class OrdersFragment extends Fragment {
                 if (isFilter) {
                     statusSelectedId = statusList.get(3).statusId;
                 } else {
+
                     currentStatusId = statusList.get(3).statusId;
+                    currentVendorStatus = statusList.get(3).getStatus();
                 }
 
                 deliveredBg.setBackgroundColor(0x00000000);
@@ -472,8 +475,6 @@ public class OrdersFragment extends Fragment {
                 readyBg.setBackgroundColor(0x00000000);
                 readyText.setTextColor(Color.parseColor("#4FC12D"));
 
-//                allBg.setBackgroundColor(0x00000000);
-//                allText.setTextColor(Color.parseColor("#454C53"));
             }
         });
 
@@ -485,7 +486,9 @@ public class OrdersFragment extends Fragment {
                 if (isFilter) {
                     statusSelectedId = statusList.get(4).statusId;
                 } else {
+
                     currentStatusId = statusList.get(4).statusId;
+                    currentVendorStatus = statusList.get(4).getStatus();
                 }
 
                 pendingBg.setBackgroundColor(0x00000000);
@@ -500,35 +503,9 @@ public class OrdersFragment extends Fragment {
                 shippedBg.setBackgroundColor(0x00000000);
                 shippedText.setTextColor(Color.parseColor("#BB2CE6"));
 
-//                allBg.setBackgroundColor(0x00000000);
-//                allText.setTextColor(Color.parseColor("#454C53"));
             }
         });
 
-//        all.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                allBg.setBackground(ContextCompat.getDrawable(activity, R.color.darkGray));
-//                allText.setTextColor(Color.parseColor("#ffffff"));
-//                statusSelectedId = 60;
-//
-//
-//                pendingBg.setBackgroundColor(0x00000000);
-//                pendingText.setTextColor(Color.parseColor("#E62C2C"));
-//
-//                processingBg.setBackgroundColor(0x00000000);
-//                processingText.setTextColor(Color.parseColor("#D8A228"));
-//
-//                readyBg.setBackgroundColor(0x00000000);
-//                readyText.setTextColor(Color.parseColor("#4FC12D"));
-//
-//                shippedBg.setBackgroundColor(0x00000000);
-//                shippedText.setTextColor(Color.parseColor("#BB2CE6"));
-//
-//                deliveredBg.setBackgroundColor(0x00000000);
-//                deliveredText.setTextColor(Color.parseColor("#007AFF"));
-//            }
-//        });
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -537,9 +514,9 @@ public class OrdersFragment extends Fragment {
                     ordersList.clear();
                     ordersAdapter.notifyDataSetChanged();
                     pageIndex = 1;
-                        getOrdersApi(null, String.valueOf(statusSelectedId), fromDateStr, toDateStr);
+                    getOrdersApi(null, String.valueOf(statusSelectedId), fromDateStr, toDateStr);
                 } else {
-                    changeOrderStatusApi(ordersList.get(orderPosition).id, currentStatusId);
+                    changeOrderStatusApi(ordersList.get(orderPosition).id, currentStatusId, currentVendorStatus);
 
                 }
 
@@ -551,7 +528,7 @@ public class OrdersFragment extends Fragment {
 
     private void vendorStatusApi(boolean isFilter) {
         loading.setVisibility(View.VISIBLE);
-        RetrofitConfig.getServices().VENDOR_STATUS_CALL().enqueue(new Callback<VendorStatusResponse>() {
+        RetrofitConfig.getServices(activity).VENDOR_STATUS_CALL().enqueue(new Callback<VendorStatusResponse>() {
             @Override
             public void onResponse(Call<VendorStatusResponse> call, Response<VendorStatusResponse> response) {
                 loading.setVisibility(View.GONE);
@@ -572,7 +549,7 @@ public class OrdersFragment extends Fragment {
 
     private void getOrdersApi(String searchOrderNum, String vendorStatusId, String fromDate, String toDate) {
         loading.setVisibility(View.VISIBLE);
-        RetrofitConfig.getServices().ORDERS_RESPONSE_CALL(vendorId, pageIndex, limit, searchOrderNum, vendorStatusId, fromDate, toDate)
+        RetrofitConfig.getServices(activity).ORDERS_RESPONSE_CALL(vendorId, pageIndex, limit, searchOrderNum, vendorStatusId, fromDate, toDate)
                 .enqueue(new Callback<OrdersResponse>() {
                     @Override
                     public void onResponse(Call<OrdersResponse> call, Response<OrdersResponse> response) {
@@ -583,7 +560,8 @@ public class OrdersFragment extends Fragment {
                                 ordersList.clear();
                                 ordersList.addAll(response.body().orders);
                                 ordersAdapter.notifyDataSetChanged();
-                                total.setText(response.body().total.orderTotal + " " + getString(R.string.currency));
+                                total.setText(response.body().total.formattedOrderTotal);
+                                ordersTotal = response.body().total;
                                 //add Scroll listener to the recycler , for pagination
                                 orders.addOnScrollListener(new RecyclerView.OnScrollListener() {
                                     @Override
@@ -638,7 +616,7 @@ public class OrdersFragment extends Fragment {
     }
 
     private void getMoreOrders(String vendorId, int limit, String searchOrderNum, String vendorStatusId, String fromDate, String toDate) {
-        RetrofitConfig.getServices().ORDERS_RESPONSE_CALL(vendorId, pageIndex, limit, searchOrderNum, vendorStatusId, fromDate, toDate)
+        RetrofitConfig.getServices(activity).ORDERS_RESPONSE_CALL(vendorId, pageIndex, limit, searchOrderNum, vendorStatusId, fromDate, toDate)
                 .enqueue(new Callback<OrdersResponse>() {
                     @Override
                     public void onResponse(Call<OrdersResponse> call, Response<OrdersResponse> response) {
@@ -666,12 +644,15 @@ public class OrdersFragment extends Fragment {
                 });
     }
 
-    private void changeOrderStatusApi(int orderId, int statusId) {
-        RetrofitConfig.getServices().CHANGE_ORDER_STATUS(orderId, statusId).enqueue(new Callback<ResponseBody>() {
+    private void changeOrderStatusApi(int orderId, int statusId, String vendorStatus) {
+        loading.setVisibility(View.VISIBLE);
+        RetrofitConfig.getServices(activity).CHANGE_ORDER_STATUS(orderId, statusId).enqueue(new Callback<ResponseBody>() {
             @Override
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
                 if (response.code() == 200) {
+                    loading.setVisibility(View.GONE);
                     ordersList.get(orderPosition).vendorStatusId = Integer.valueOf(statusId);
+                    ordersList.get(orderPosition).setVendorStatus(vendorStatus);
                     ordersAdapter.notifyDataSetChanged();
                 }
             }

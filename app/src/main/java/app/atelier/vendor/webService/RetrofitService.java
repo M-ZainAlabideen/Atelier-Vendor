@@ -5,7 +5,6 @@ import app.atelier.vendor.webService.response.OrdersResponse;
 import app.atelier.vendor.webService.response.VendorStatusResponse;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
-import retrofit2.Response;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
@@ -23,7 +22,6 @@ public interface RetrofitService {
     @FormUrlEncoded
     @POST("customers/recoverypassword")
     Call<ResponseBody> FORGET_PASSWORD_RESPONSE_CALL(@Field("email") String email);
-
 
     @GET("vendororders")
     Call<OrdersResponse> ORDERS_RESPONSE_CALL(@Query("vendor_id") String vendorId,
@@ -45,7 +43,7 @@ public interface RetrofitService {
             @Query("orderId") int orderId,
             @Query("statusId") int statusId);
 
-    @POST("/customers/devicetoken")
+    @POST("customers/devicetoken")
     Call<ResponseBody> INSERT_TOKEN(@Query("token") String token,
                      @Query("device_type") String deviceType,
                      @Query("device_id") String deviceId,
